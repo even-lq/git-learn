@@ -41,3 +41,8 @@ git log 查看每次commit情况
 git checkout -b dev
 git merge --no-ff -m 'merge with no-ff' dev 在main分支合并dev分支时不启用快进模式
 git log可以查看合并记录而不只是commit记录
+切换到了dev并码了一段字，然后去commit保存
+git stash 保存dev的工作现场
+git stash list查看工作现场的编码
+git stash pop返回工作现场
+继续add commit push三部曲不然关闭ide还是无法保存代码
