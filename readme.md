@@ -36,3 +36,7 @@ git merge future1
 
 
 git log 查看每次commit情况
+
+### 分支管理
+git checkout -b dev
+再次创建
