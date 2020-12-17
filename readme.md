@@ -24,3 +24,4 @@ git add readme.md
 ### 冲突处理
 git checkout -b future1
 git branch
+发生冲突
