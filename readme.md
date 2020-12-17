@@ -41,3 +41,5 @@ git log 查看每次commit情况
 git checkout -b dev
 git merge --no-ff -m 'merge with no-ff' dev 在main分支合并dev分支时不启用快进模式
 git log可以查看合并记录而不只是commit记录
+
+我把bug改好了
