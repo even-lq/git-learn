@@ -46,3 +46,16 @@ git stash 保存dev的工作现场
 git stash list查看工作现场的编码
 git stash pop返回工作现场
 继续add commit push三部曲不然关闭ide还是无法保存代码
+
+
+
+
+### 版本回退（还未push）
+
+git diff readme.md 查看更改记录
+
+git log 查找commit记录
+
+git reset --hard HEAD^ 回退上一个comit
+
+git reset --hard+空格+commit号 回退到指定的commit
