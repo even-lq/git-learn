@@ -24,3 +24,6 @@ git add readme.md
 ### 冲突处理
 git checkout -b future1
 git branch
+git add readme.md
+git commit -m "新增future1分支"
+git checkout main 切换到main，不会把future1的更改更新到main中
