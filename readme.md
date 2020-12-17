@@ -27,3 +27,12 @@ git branch
 git add readme.md
 git commit -m "新增future1分支"
 git checkout main 切换到main，不会把future1的更改更新到main中
+切换到main后，在main中随便加入一段代码
+git merge future1
+发生冲突：main和future1各自有新提交的代码
+提示错误：在main分支之前future分支提交了
+手动解决冲突
+再git add，git commit，git push完成操作
+
+
+git log 查看每次commit情况
