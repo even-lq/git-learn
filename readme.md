@@ -39,4 +39,4 @@ git log 查看每次commit情况
 
 ### 分支管理
 git checkout -b dev
-再次创建
+git merge --no-ff -m 'merge with no-ff' dev 在main分支合并dev分支时不启用快进模式
